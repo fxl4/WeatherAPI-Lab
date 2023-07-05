@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPI Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <img src="https://cdn.weatherapi.com/v4/images/weatherapi_logo.png" alt="the weather api logo" />
+</head>
+<body>
+    <div class="input">
+        <input id="textInput" type="text" placeholder="enter city here" />
+        <button id="submitButton"> Click Here </button>
+    </div>
+    <div class="output">
+        <h1 id="cityName"></h1>
+        <h2 id="temp"></h2>
+        <img id="weatherIcon" src="/cloudy.png" alt="an icon of the sun hiding behind a cloud" />
+    </div>
+</body>
+<footer><a href="https://www.flaticon.com/free-icons/sun" title="sun icons">Sun icons created by iconixar - Flaticon</a></footer>
+</html>
